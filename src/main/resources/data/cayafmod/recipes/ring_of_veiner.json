@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"DBE",
+		"CAC",
+		"EBD"
+	],
+	
+	"key":
+	{
+		"A": { "item": "minecraft:gold_ingot" },
+		"B": { "item": "minecraft:ancient_debris" },
+		"C": { "tag": "minecraft:gold_ores" },
+		"D": { "item": "minecraft:diamond" },
+		"E": { "item": "minecraft:emerald" }
+		
+	},
+	
+	"result": {
+		"item": "cayafmod:ring_of_veiner",
+		"count": 1
+	}
+}

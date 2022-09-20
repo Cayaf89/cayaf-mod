@@ -1,0 +1,19 @@
+{
+  "enchantment.cayafmod.divine_regeneration_enchantment": "Divine regeneration",
+
+  "item.cayafmod.blood_lust_dagger": "Blood dagger",
+  "item.cayafmod.blood_item": "Ravager blood",
+
+  "item.cayafmod.ring_of_veiner": "Ring of the Veiner",
+  "item.cayafmod.ring_of_veiner.line1": "Breaks most veins around the player",
+  "item.cayafmod.ring_of_veiner.line2": "Right-click to break veins, no drops",
+  "item.cayafmod.ring_of_veiner.line3": "Shift + right-click to break veins, with drops",
+  "item.cayafmod.ring_of_veiner.line4": "Area of effect: 11x5x11",
+  "item.cayafmod.ring_of_veiner.cooldown": "Cooldown (ticks): %s",
+  "item.cayafmod.ring_of_veiner.mode": "Vein Break Mode: %s",
+  "item.cayafmod.ring_of_veiner.line5": "Right-click to break veins, with drops",
+  "item.cayafmod.ring_of_veiner.line6": "Shift + right-click to break veins, no drops",
+
+
+  "itemGroup.cayaf_mod": "Cayaf Mod"
+}

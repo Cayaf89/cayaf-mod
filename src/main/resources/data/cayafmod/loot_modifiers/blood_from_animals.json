@@ -1,0 +1,10 @@
+{
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:entities/ravager"
+    }
+  ],
+  "addition": "cayafmod:blood_item",
+  "type": "cayafmod:blood_from_animals"
+}
