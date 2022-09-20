@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "cayafmod:block/mithril_ore"
+    }
+  }
+}

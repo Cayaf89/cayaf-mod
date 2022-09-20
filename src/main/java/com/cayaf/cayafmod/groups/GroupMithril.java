@@ -1,22 +1,20 @@
-package com.cayaf.cayafmod.group;
-
-
+package com.cayaf.cayafmod.groups;
 
 import com.cayaf.cayafmod.items.ItemsInit;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import org.jetbrains.annotations.NotNull;
 
-public class GroupCayafMod extends CreativeModeTab
+public class GroupMithril extends CreativeModeTab
 {
-    public GroupCayafMod()
+    public GroupMithril()
     {
-        super("cayaf_mod");
+        super("mithril_group");
     }
 
     @Override
     public @NotNull ItemStack makeIcon()
     {
-        return new ItemStack(ItemsInit.BLOOD_LUST_DAGGER.get());
+        return new ItemStack(ItemsInit.RAW_MITHRIL.get());
     }
 }

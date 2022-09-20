@@ -2,5 +2,28 @@
   "enchantment.cayafmod.divine_regeneration_enchantment": "Régénération divine",
   "item.cayafmod.blood_lust_dagger": "Dague de sang",
   "item.cayafmod.blood_item": "Sang de ravageur",
-  "itemGroup.cayaf_mod": "Cayaf Mod"
+
+  "item.cayafmod.mithril_shovel": "Pelle en mithril",
+  "item.cayafmod.mithril_pickaxe": "Pioche en mithril",
+  "item.cayafmod.mithril_axe": "Hache en mithril",
+  "item.cayafmod.mithril_hoe": "Houe Mithril",
+  "item.cayafmod.mithril_sword": "Épée en mithril",
+
+  "item.cayafmod.mithril_helmet": "Casque en mithril",
+  "item.cayafmod.mithril_chestplate": "Plastron en mithril",
+  "item.cayafmod.mithril_leggings": "Jambières en mithril",
+  "item.cayafmod.mithril_boots": "Bottes en mithril",
+
+  "item.cayafmod.raw_mithril": "Mithril brut",
+  "item.cayafmod.mithril_ingot": "Lingot mithril",
+
+  "block.cayafmod.mithril_ore": "Minerai de mithril",
+  "block.cayafmod.deepslate_mithril_ore": "Minerai de Mithril des abîmes",
+  "block.cayafmod.mithril_block": "Bloc de mithril Mithril",
+  "block.cayafmod.raw_mithril_block": "Bloc de mithril brut",
+
+  "subtitles.item.armor.equip_mithril": "L'armure en mithril cliquette",
+
+  "itemGroup.cayaf_mod": "Cayaf Mod",
+  "itemGroup.mithril_group": "Mithril"
 }

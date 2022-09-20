@@ -3,11 +3,11 @@ package com.cayaf.cayafmod;
 import com.cayaf.cayafmod.blocks.BlocksInit;
 import com.cayaf.cayafmod.config.ModConfig;
 import com.cayaf.cayafmod.enchantments.EnchantmentsInit;
+import com.cayaf.cayafmod.groups.GroupMithril;
 import com.cayaf.cayafmod.loot_modifiers.DataProvider;
-import com.cayaf.cayafmod.group.GroupCayafMod;
+import com.cayaf.cayafmod.groups.GroupCayafMod;
 import com.cayaf.cayafmod.items.ItemsInit;
 import com.cayaf.cayafmod.loot_modifiers.LootModifiersInit;
-import net.minecraft.util.profiling.jfr.event.ChunkGenerationEvent;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.data.event.GatherDataEvent;
@@ -29,6 +29,7 @@ public class CayafMod
     public static final Logger LOGGER = LogManager.getLogger(MODID);
 
     public static final CreativeModeTab cayaf_mod_group = new GroupCayafMod();
+    public static final CreativeModeTab mithril_group = new GroupMithril();
 
 
     public CayafMod()

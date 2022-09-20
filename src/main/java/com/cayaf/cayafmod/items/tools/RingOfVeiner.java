@@ -1,4 +1,4 @@
-package com.cayaf.cayafmod.items;
+package com.cayaf.cayafmod.items.tools;
 
 import com.cayaf.cayafmod.CayafMod;
 import com.cayaf.cayafmod.config.GeneralModConfig;

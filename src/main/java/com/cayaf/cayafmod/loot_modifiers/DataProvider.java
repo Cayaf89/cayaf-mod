@@ -1,6 +1,6 @@
 package com.cayaf.cayafmod.loot_modifiers;
 
-import com.cayaf.cayafmod.items.BloodItem;
+import com.cayaf.cayafmod.items.resources.Blood;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.ItemStack;
@@ -21,7 +21,7 @@ public class DataProvider extends GlobalLootModifierProvider
         add("blood_from_animals", new BloodFromAnimalsModifier(
                 new LootItemCondition[] {
                         LootTableIdCondition.builder(new ResourceLocation("cayafmod", "blood_from_animals")).build()
-                }, new ItemStack(BloodItem::new).getItem())
+                }, new ItemStack(Blood::new).getItem())
         );
     }
 }

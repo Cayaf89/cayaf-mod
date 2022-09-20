@@ -14,6 +14,27 @@
   "item.cayafmod.ring_of_veiner.line5": "Right-click to break veins, with drops",
   "item.cayafmod.ring_of_veiner.line6": "Shift + right-click to break veins, no drops",
 
+  "item.cayafmod.mithril_shovel": "Mithril Shovel",
+  "item.cayafmod.mithril_pickaxe": "Mithril Pickaxe",
+  "item.cayafmod.mithril_axe": "Mithril Axe",
+  "item.cayafmod.mithril_hoe": "Mithril Hoe",
+  "item.cayafmod.mithril_sword": "Mithril Sword",
 
-  "itemGroup.cayaf_mod": "Cayaf Mod"
+  "item.cayafmod.mithril_helmet": "Mithril Helmet",
+  "item.cayafmod.mithril_chestplate": "Mithril Chestplate",
+  "item.cayafmod.mithril_leggings": "Mithril Leggings",
+  "item.cayafmod.mithril_boots": "Mithril Boots",
+
+  "item.cayafmod.raw_mithril": "Raw Mithril",
+  "item.cayafmod.mithril_ingot": "Mithril Ingot",
+
+  "block.cayafmod.mithril_ore": "Mithril Ore",
+  "block.cayafmod.deepslate_mithril_ore": "Deepslate Mithril Ore",
+  "block.cayafmod.mithril_block": "Block of Mithril",
+  "block.cayafmod.raw_mithril_block": "Block of Raw Mithril",
+
+  "subtitles.item.armor.equip_mithril": "Mithril armor clanks",
+
+  "itemGroup.cayaf_mod": "Cayaf Mod",
+  "itemGroup.mithril_group": "Mithril"
 }
