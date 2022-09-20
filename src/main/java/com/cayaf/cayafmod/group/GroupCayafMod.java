@@ -2,7 +2,6 @@ package com.cayaf.cayafmod.group;
 
 
 
-import com.cayaf.cayafmod.CayafMod;
 import com.cayaf.cayafmod.items.ItemsInit;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
@@ -18,6 +17,6 @@ public class GroupCayafMod extends CreativeModeTab
     @Override
     public @NotNull ItemStack makeIcon()
     {
-        return new ItemStack(ItemsInit.BLOOD_LUST_REGISTRY_OBJECT.get());
+        return new ItemStack(ItemsInit.BLOOD_LUST_DAGGER.get());
     }
 }

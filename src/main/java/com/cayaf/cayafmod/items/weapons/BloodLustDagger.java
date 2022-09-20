@@ -1,4 +1,4 @@
-package com.cayaf.cayafmod.items;
+package com.cayaf.cayafmod.items.weapons;
 
 import com.cayaf.cayafmod.CayafMod;
 import net.minecraft.util.Mth;

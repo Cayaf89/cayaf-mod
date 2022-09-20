@@ -1,11 +1,13 @@
 package com.cayaf.cayafmod;
 
+import com.cayaf.cayafmod.blocks.BlocksInit;
 import com.cayaf.cayafmod.config.ModConfig;
 import com.cayaf.cayafmod.enchantments.EnchantmentsInit;
 import com.cayaf.cayafmod.loot_modifiers.DataProvider;
 import com.cayaf.cayafmod.group.GroupCayafMod;
 import com.cayaf.cayafmod.items.ItemsInit;
 import com.cayaf.cayafmod.loot_modifiers.LootModifiersInit;
+import net.minecraft.util.profiling.jfr.event.ChunkGenerationEvent;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.data.event.GatherDataEvent;
@@ -34,6 +36,7 @@ public class CayafMod
         ModConfig.loadConfig(ModConfig.CONFIG, FMLPaths.CONFIGDIR.get().resolve("cayafmod-general.toml"));
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        BlocksInit.BLOCKS.register(eventBus);
         EnchantmentsInit.ENCHANTMENTS.register(eventBus);
         ItemsInit.ITEMS.register(eventBus);
         LootModifiersInit.GLM.register(eventBus);
@@ -47,4 +50,5 @@ public class CayafMod
     {
         event.getGenerator().addProvider(event.includeServer(), new DataProvider(event.getGenerator(), MODID));
     }
+
 }
