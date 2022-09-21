@@ -9,9 +9,7 @@ import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.crafting.Ingredient;
 
 public enum MithrilArmorMaterials implements ArmorMaterial {
-    MITHRIL("mithril", 50, new int[]{5, 8, 10, 5}, 20, SoundEvents.ARMOR_EQUIP_CHAIN, 5.0F, 0.3F, () -> {
-        return Ingredient.of(ItemsInit.MITHRIL_INGOT.get());
-    });
+    MITHRIL("cayafmod:mithril", 50, new int[]{5, 8, 10, 5}, 20, SoundEvents.ARMOR_EQUIP_CHAIN, 5.0F, 0.3F, () -> Ingredient.of(ItemsInit.MITHRIL_INGOT.get()));
 
     private static final int[] HEALTH_PER_SLOT = new int[]{13, 15, 16, 11};
     private final String name;

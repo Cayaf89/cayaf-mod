@@ -7,9 +7,7 @@ import net.minecraft.world.item.crafting.Ingredient;
 import org.jetbrains.annotations.NotNull;
 
 public enum MithrilTiers implements Tier {
-    MITHRIL(5, 9999, 12.0F, 5.0F, 20, () -> {
-        return Ingredient.of(ItemsInit.MITHRIL_INGOT.get());
-    });
+    MITHRIL(5, 9999, 12.0F, 5.0F, 20, () -> Ingredient.of(ItemsInit.MITHRIL_INGOT.get()));
 
     private final int level;
     private final int uses;
