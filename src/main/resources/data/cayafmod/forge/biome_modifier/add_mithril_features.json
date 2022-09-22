@@ -1,0 +1,6 @@
+{
+	"type" : "forge:add_features",
+	"biomes" : "#minecraft:is_overworld",
+	"features" : ["cayafmod:ore_mithril_intrusion", "cayafmod:ore_mithril_deposit"],
+	"step" : "underground_ores"
+}
